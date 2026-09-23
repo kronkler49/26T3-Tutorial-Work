@@ -1,15 +1,15 @@
 public class Shouter {
     private String msg;
 
-    Shouter(String msg) {
+    public Shouter(String msg) {
         this.msg = msg;
     }
 
-    void setMessage(String msg) {
+    public void setMessage(String msg) {
         this.msg = msg;
     }
 
-    String getMessage() {
+    public String getMessage() {
         return msg;
     }
 
